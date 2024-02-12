@@ -1,0 +1,12 @@
+<header>
+	<div class="header">
+		<div class="logo">
+			{{ with resources.Get "images/logo.png" }}
+			<img src="{{ .RelPermalink }}" alt="logo">
+				{{ end }}
+		</div>
+		<div class="title">
+			<h2><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h2>
+		</div>
+	</div>
+</header>
