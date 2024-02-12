@@ -6,8 +6,10 @@
 		<h2>{{ .name }}</h2>
 		<p class="role">{{ .role }}</p>
 		<div class="mail">
-		<a href="mailto:{{ .mail }}">
-				<i>✉️ {{ .mail }}</i>
+		{{ $mail := replace .name " " "." | lower }}
+		{{ $mail := add $mail "@scaportugal.coffee" }}
+		<a href="mailto:{{ $mail }}">
+				<i>✉️ {{ $mail }}</i>
 			</a>
 		</div>
 	</div>
