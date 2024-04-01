@@ -1,9 +1,11 @@
 <header>
 	<div class="header">
 		<div class="logo">
-			{{ with resources.Get "images/logo.png" }}
-			<img src="{{ .RelPermalink }}" alt="logo">
+			<a href="{{ .Site.BaseURL }}">
+				{{ with resources.Get "images/logo.png" }}
+				<img src="{{ .RelPermalink }}" alt="logo">
 				{{ end }}
+			</a>
 		</div>
 		<div class="title">
 			<h2><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h2>
