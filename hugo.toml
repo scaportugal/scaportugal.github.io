@@ -1,3 +1,6 @@
 baseURL = 'https://scaportugal.coffee/'
 languageCode = 'pt-PT'
 title = 'SCA Portugal'
+
+[markup.goldmark.renderer]
+unsafe= true
