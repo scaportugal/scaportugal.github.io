@@ -1,14 +1,8 @@
 ---
-title: "2024 Cup Tasters"
+title: "2024 Cup Tasters Leaderboard"
 date: 2024-10-20T08:29:00Z
 draft: false
 ---
-
-<section>
-    <div class="row">
-        <h1 class="section-title">2024 Cup Tasters</h1>
-    </div>
-</section>
 
 <table class="table-auto w-full bg-white shadow-md rounded-lg">
     <thead>

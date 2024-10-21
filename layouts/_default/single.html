@@ -7,6 +7,11 @@
 
 <body>
   {{ partial "header.html" . }}
+  <section>
+    <div class="row">
+      <h1 class="section-title">{{ .Title }}</h1>
+    </div>
+  </section>
   {{ .Content }}
 </body>
 

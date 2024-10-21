@@ -4,3 +4,14 @@ title = 'SCA Portugal'
 
 [markup.goldmark.renderer]
 unsafe= true
+
+[menu]
+[[menu.main]]
+name = '2024 Brewers Cup Leaderboard'
+url = '/competitions/brewers-cup/2024/leaderboard'
+weight = 20
+[[menu.main]]
+name = '2024 Cup Tasters Leaderboard'
+url = '/competitions/cup-tasters/2024/leaderboard'
+weight = 30
+
