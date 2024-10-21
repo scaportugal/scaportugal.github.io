@@ -1,12 +1,16 @@
 <header>
 	<div class="header">
-		<div class="logo">
-			<a href="{{ .Site.BaseURL }}">
-				<img src="/images/logo.png" alt="logo">
-			</a>
-		</div>
-		<div class="title">
-			<h2><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h2>
+		<div class="top-section">
+			<div class="logo">
+				<a href="{{ .Site.BaseURL }}">
+					<img src="/images/logo.png" alt="logo">
+				</a>
+			</div>
+			<div class="title">
+				<h2>
+					<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+				</h2>
+			</div>
 		</div>
 		<div class="menu">
 			{{ partial "menu.html" . }}
