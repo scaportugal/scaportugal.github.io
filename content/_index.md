@@ -16,10 +16,7 @@ team:
   - name: Felipe Orioli
     role: Education Coordinator
     photo: felipe_orioli.jpg
-  - name: Paulo Assunção
-    role: Community Coordinator
-    photo: paulo_assuncao.jpg
-  - name: Manuel Tiago Pereira
+  - name: Manuel Pereira
     role: Judges Coordinator
     photo: manuel_pereira.png
 ---
